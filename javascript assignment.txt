@@ -1,0 +1,111 @@
+1) what is javascript?
+ANS - 
+JavaScript is a high-level, interpreted programming language used for creating interactive web pages and web applications. 
+It allows developers to add dynamic behavior to web pages and implement complex functionality. 
+
+
+2)What is the use of isNaN function?
+ANS-
+The isNaN function in JavaScript is used to determine whether a value is NaN (Not-a-Number). 
+It returns true if the value is NaN, and false otherwise. It is typically used to validate user input when working with numerical data.
+
+
+3)What is negative Infinity?
+ANS-
+Negative Infinity is a value in JavaScript that represents the mathematical concept of negative infinity,
+ which is a number that is smaller than any other number. It is often used to indicate an overflow or underflow condition.
+
+
+4)Which company developed JavaScript?
+ANS-
+JavaScript was developed by Netscape Communications Corporation (now owned by AOL) in the mid-1990s. 
+It was initially called Mocha, then later changed to LiveScript before finally being renamed to JavaScript.
+
+
+5)What are undeclared and undefined variables?
+ANS-
+Undeclared variables are variables that have not been declared using the var, let, or const keywords.
+ They are assigned a global scope by default, which can lead to unexpected behavior in large applications.
+ Undefined variables are variables that have been declared but have not been assigned a value. 
+
+
+6)Write the code for adding new elements dynamically?
+ANS-
+To add new elements dynamically using JavaScript, you can use the createElement method to create a new element, 
+and the appendChild method to add it to the parent element. 
+Here's an example:
+
+const element = document.querySelector("#my-element");
+element.style.backgroundColor = "red";
+element.classList.add("active");
+
+
+7)What is the difference between ViewState and SessionState?
+ANS-
+ViewState and SessionState are both ways of storing data on the client side in a web application. 
+ViewState is used to store data related to the state of a particular page, while SessionState is used to store data that is related to the user's session on the website.
+ViewState is stored in a hidden field on the page, while SessionState is stored on the server.
+
+
+8)What is === operator?
+ANS-
+The === operator in JavaScript is called the strict equality operator. It checks whether the two operands are equal in value and type.
+ If they are, it returns true. Otherwise, it returns false.
+
+
+9) How can the style/class of an element be changed?
+ANS-
+To change the style/class of an element in JavaScript, you can use the style property to modify individual CSS properties, or the classList property to add or remove classes.
+ Here's an example:
+const element = document.querySelector("#my-element");
+element.style.backgroundColor = "red";
+element.classList.add("active");
+
+
+10)How to read and write a file using JavaScript?
+ANS-
+Using the FileReader API: The FileReader API allows you to read the contents of a file that has been selected by the user using a file input element.
+Using a server-side script: To read and write files on the server, you can use a server-side scripting language like Node.js. 
+Node.js provides several built-in modules for working with files,
+
+
+11)What are all the looping structures in JavaScript?
+ANS-
+There are three looping structures in JavaScript: for, while, and do-while.
+
+
+12)How can you convert the string of any base to an integer in JavaScript?
+ANS-
+To convert a string of any base to an integer in JavaScript, you can use the parseInt function. 
+For example, to convert the binary string "1010" to an integer, you would use parseInt("1010", 2).
+
+
+13)What is the function of the delete operator?
+ANS-
+The delete operator in JavaScript is used to remove a property from an object or an element from an array. It does not delete variables or functions.
+
+
+14)What are all the types of Pop up boxes available in JavaScript?
+ANS-
+There are three types of pop-up boxes in JavaScript: alert, confirm, and prompt. 
+The alert box displays a message and an OK button, the confirm box displays a message and OK and Cancel buttons,
+and the prompt box displays a message and a text field for the user to enter input.
+
+
+15)What is the use of Void (0)?
+ANS-
+The void(0) operator in JavaScript is used to prevent the default behavior of a link or button. It essentially does nothing and returns undefined.
+
+
+16)How can a page be forced to load another page in JavaScript?
+To force a page to load another page in JavaScript, you can use the window.location.href property to set the URL of the new page. For example:
+window.location.href = "https://www.example.com";
+
+
+17)What are the disadvantages of using innerHTML in JavaScript?
+The disadvantage of using innerHTML in JavaScript is that it can lead to security vulnerabilities if the content is not properly sanitized. 
+It can also be slower.
+
+
+
+
